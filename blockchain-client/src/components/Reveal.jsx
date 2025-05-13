@@ -47,6 +47,12 @@ const Reveal = () => {
         setStatus("Please select a candidate and enter your secret");
         return;
       }
+
+      const voterDetails = await contract.voters(address);
+      if (voterDetails.revealed) {
+        setStatus("❌ You have already revealed your vote.");
+        return;
+      }
   
       const tx = await contract.revealVote(Number(candidateIndex), secret);
       setStatus("Revealing vote...");

@@ -1,4 +1,4 @@
- [
+[
     {
       "inputs": [
         {
@@ -257,6 +257,11 @@
           "internalType": "bytes32",
           "name": "voteHash",
           "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
+          "name": "revealed",
+          "type": "bool"
         }
       ],
       "stateMutability": "view",
