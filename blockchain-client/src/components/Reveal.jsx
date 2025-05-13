@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { ethers } from "ethers";
 import VotingABI from "../contract/VotingABI.json";
-
-const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS;
+import { CONTRACT_ADDRESS } from "../CONSTANTS";
 
 const Reveal = () => {
   const [candidateIndex, setCandidateIndex] = useState("");

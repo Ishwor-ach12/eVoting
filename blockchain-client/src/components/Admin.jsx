@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { ethers } from "ethers";
 import VotingABI from "../contract/VotingABI.json";
+import { CONTRACT_ADDRESS } from "../CONSTANTS";
 
-const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS;
-console.log("Contract Address from ENV:", import.meta.env.VITE_REACT_APP_CONTRACT_ADDRESS);
+console.log("Contract Address from ENV:",CONTRACT_ADDRESS);
 
 const Admin = () => {
   const [voterAddress, setVoterAddress] = useState("");
