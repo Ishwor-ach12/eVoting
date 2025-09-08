@@ -1,4 +1,4 @@
-# 🗳️ Blockchain-Based Secure Voting System  
+# 🗳️ Ballot Box - Blockchain-Based Secure Voting System  
 
 A decentralized voting platform built on **Ethereum blockchain** using **Solidity, Hardhat, React.js, and MetaMask**.  
 This system ensures **security, transparency, and fairness** in digital elections by employing a **commit–reveal voting scheme** with **cryptographic hashing (Keccak256)**.  
@@ -16,6 +16,13 @@ Our system leverages **blockchain technology** to overcome these challenges by p
 - ⚖️ **Fairness** → Commit–reveal prevents early disclosure & coercion.  
 
 This approach guarantees **tamper-proof, verifiable, and trustable elections** for governments, organizations, and online communities.  
+
+---
+
+
+## 🚀 Live Demo
+You can check out the deployed version of the project here:  
+👉 [Ballot Box - eVoting Application](https://ballot-box-lilac.vercel.app/)
 
 ---
 
