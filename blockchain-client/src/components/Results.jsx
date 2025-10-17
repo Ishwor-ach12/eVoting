@@ -4,12 +4,6 @@ import VotingABI from "../contract/VotingABI.json";
 import { CONTRACT_ADDRESS } from "../CONSTANTS";
 
 const Results = () => {
-  // Mock data for demonstration, in a real app this would come from blockchain
-  // const electionResults = [
-  //   { id: 1, name: "Bob", index: 0, votes: 0 },
-  //   { id: 2, name: "Alice", index: 1, votes: 0 },
-  //   { id: 3, name: "Charlie", index: 2, votes: 0 },
-  // ];
 
   const [electionResults, setElectionResults] = useState([
   { id: 1, name: "Bob", index: 0, votes: 0 },
@@ -69,7 +63,6 @@ const Results = () => {
   };
 
   fetchVoteCounts();
-  console.log("hello")
   }, []);
 
   return (
